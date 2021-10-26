@@ -1,0 +1,32 @@
+/* This will be our new hand-coded grid file */
+
+.grid-item {
+	background-image: url("podbaydoors.jpg");
+	background-position: center;
+	width: 100%;
+ 	display:grid;
+ 	height: 600px;
+ 	justify-content: center;
+}
+
+.grid {
+  display:grid; 
+  grid-auto-flow: column;
+  gap: 4px;
+  grid-gap:2rem;
+  padding: 40px 0;
+  grid-auto-flow: column;
+
+}
+
+.container {
+margin-top: 900px;
+background-image: url(https://c.tenor.com/O4s6UInb7REAAAAj/orange-justice-sonic-the-hedgehog.gif);
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+position: absolute;
+vertical-align: middle;
+margin-right: -90%;
+transform: translate(-100%, -1%)
+}
